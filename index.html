@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<html>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <section class="first">Hello</section>
+    <section class="first bg-red"> Good Morning</section>
+    <!-- <style>
+        body{
+            background-color: rgb(0, 251, 255);
+        }
+    </style> -->
+<!-- </body>
+</html> --> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML DOM Example</title>
+</head>
+<body>
+
+<h1 id="main-heading">Hello, DOM!</h1>
+
+<script>
+  // Accessing the document object
+  var myDocument = document;
+
+  // Accessing an element by its ID
+  var headingElement = document.getElementById("main-heading");
+
+  // Modifying the content of the element
+  headingElement.innerHTML = "Modified Heading";
+
+  // Adding a new paragraph element
+  var newParagraph = document.createElement("p");
+  newParagraph.innerHTML = "This is a new paragraph.";
+
+  // Appending the new paragraph to the body
+  document.body.appendChild(newParagraph);
+</script>
+
+</body>
+</html>

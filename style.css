@@ -1,0 +1,140 @@
+
+/* 
+.first{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+#heading{
+color: green;
+}
+ */
+
+ /* *{
+    margin: 0;
+    padding: 0;
+   }
+   nav{
+padding: 5px;
+   }
+   nav a{
+       text-decoration: none;
+       color: rgb(11, 23, 236);
+       margin-left: 55px;
+       padding: 5px;
+       
+   }
+   header{
+       background-color: cadetblue;
+       height: 30px;
+   }
+   #second{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    border-radius: 100px;
+   }
+
+    .box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(131, 77, 7);
+    display: inline;
+    margin: 5px;
+   }
+   #footer{
+    width: 100%;
+    background-color: brown;
+    position: fixed;
+    bottom: 1px;
+    padding: 2px;
+
+    
+   } */
+/*
+   #second02{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+   }
+
+   #third03{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+   } */
+
+   /* Float Css */
+   /* *{
+    margin: 0;
+    padding: 0;
+   }
+
+   #float-container01{
+    height: 200px;
+    width: 500px;
+    background-color: azure;
+   }
+
+   #float-box01{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: right;
+   }
+
+   #float-box02{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    float: bottom;
+   } */
+
+
+   /* Flex property */
+   *{
+    margin: 0;
+    padding: 0;
+   }
+
+   #flex-container01{
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(106, 118, 118);
+    padding: 5px;
+    display: flex;
+justify-content: center;
+   }
+   .box{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+   }
+
+   #flex-box01{
+    
+    background-color: blue;
+    flex-grow: 2;
+    
+   }
+
+   #flex-box02{
+    
+    background-color: greenyellow;
+    
+   }
+
+   #flex-box03{
+    
+    background-color: rgb(224, 18, 32);
+    
+   }
+
+   #flex-box04{
+    
+    background-color: rgb(28, 181, 198);
+    
+   }
